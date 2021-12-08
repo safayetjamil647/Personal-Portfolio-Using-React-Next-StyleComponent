@@ -9,7 +9,7 @@ export const Img = styled.img`
 
 export const GridContainer = styled.section`
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 padding: 3rem;
 place-items: center;
 column-gap: 2rem;
@@ -35,6 +35,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  color:	#0096FF;
+  margin-top:10px;
 
 `;
 
@@ -42,7 +44,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color:white;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -89,15 +91,15 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:black;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: white;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
-
+  background: grey;
+  color:white;
 }
 `;
 
@@ -107,6 +109,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: grey;
 font-size: 1.5rem;
 `
